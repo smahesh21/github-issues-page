@@ -47,4 +47,11 @@
         width: 85%;
         flex-direction: column;
     }
+    .label-box {
+        margin-left: 0px;
+        align-items: flex-start;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-right: 10px;
+    }
 }

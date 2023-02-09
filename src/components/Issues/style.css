@@ -17,11 +17,7 @@
     width: 70%;
     margin-top: 50px;
 }
-@media (max-width: 768px) {
-    .issues-sub-container {
-        width: 85%;
-    }
-}
+
 .open-closed-labels {
     height: 50px;
     width: 100%;
@@ -49,11 +45,38 @@
 .labels-container {
     display: flex;
     color: #586069;
-    font-size: 15px;
 }
 .label {
     margin-right:10px ;
 }
 .icon {
     font-size: 16px;
+}
+@media (max-width: 768px) {
+    .issues-sub-container {
+        width: 85%;
+        margin-top: 25px;
+    }
+    .open-closed-labels {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .open-closed {
+        margin-bottom: 6px;
+    }
+    .open {
+        font-size: 10px;
+    }
+    .closed {
+        font-size: 10px;
+    }
+    .labels-container {}
+    .label {
+        font-size: 10px;
+        
+    }
+    .icon {
+        font-size: 10px;
+    }
 }

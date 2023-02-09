@@ -10,6 +10,8 @@
     max-height: 100px;
     border: 1px solid #7a7a7aa6;
 }
+
+
 .span-element {
     height: 16px;
     width: 16px;
@@ -28,6 +30,7 @@
     margin-bottom: 5px;
     margin-top: 6px;
 }
+
 .issue-title:hover {
     color: rgb(94, 109, 243);
 }
@@ -38,4 +41,16 @@
 }
 .user:hover {
     color: rgb(94, 109, 243);
+}
+@media (max-width: 768px) {
+    .issue-container {
+        grid-template-columns: 10% 90%;
+        max-height: 200px;
+    }
+    .issue-title {
+        font-size: 14px;
+    }
+    .issue-description,.user {
+        font-size: 12px;
+    }
 }
