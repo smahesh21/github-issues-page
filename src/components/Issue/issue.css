@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.issue-container {
+    display: grid;
+    grid-template-columns: 5% 95%;
+    min-height: 50px;
+    max-height: 100px;
+    border: 1px solid #7a7a7aa6;
+}
+.span-element {
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    border: 1px solid lightgreen;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.title-description {
+    height: 100%;
+}
+.issue-title {
+    font-size: 18px;
+    color: #24292E;
+    margin-bottom: 5px;
+    margin-top: 6px;
+}
+.issue-title:hover {
+    color: rgb(94, 109, 243);
+}
+.issue-description,.user {
+    font-size: 14px;
+    color: #586069;
+    margin-bottom: 6px;
+}
+.user:hover {
+    color: rgb(94, 109, 243);
+}

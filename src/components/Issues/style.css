@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.issues-main-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+}
+.issues-sub-container {
+    height: 100%;
+    width: 70%;
+    margin-top: 50px;
+}
+@media (max-width: 768px) {
+    .issues-sub-container {
+        width: 85%;
+    }
+}
+.open-closed-labels {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #F6F8FA;
+    border: 1px solid #7a7a7aa6;
+}
+.open-closed {
+    display: flex;
+}
+.open {
+    font-size: 16px;
+    font-weight: 600;
+    color: #24292E;
+    margin-right: 16px;
+}
+.closed {
+    font-size: 15px;
+    color: #586069;
+}
+.labels-container {
+    display: flex;
+    color: #586069;
+    font-size: 15px;
+}
+.label {
+    margin-right:10px ;
+}
+.icon {
+    font-size: 16px;
+}
